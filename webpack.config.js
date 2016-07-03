@@ -1,14 +1,15 @@
 var webpack = require('webpack');
 module.exports = {
   resolve: {
+    root: 'D:/ESH/webpack', //绝对路径
     alias: {
       jquery: 'js/lib/jquery.min.js'
     }
   },
-  entry: './js/entry.js',
+  entry: 'js/entry.js',
   output: {
     path: __dirname,
-    filename: "./js/bundle.js"
+    filename: "js/bundle.js"
   },
   module: {
     loaders: [
