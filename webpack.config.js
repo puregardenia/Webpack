@@ -11,8 +11,10 @@ module.exports = {
     path: __dirname,
     filename: "js/bundle.js"
   },
+  // watch: true,   //有问题
   module: {
     loaders: [
+      // { test: /\.css$/, loader: ['style', 'css']},
       { test: /\.css$/, loader: "style!css"},
       { test: /.(png|jpg)$/, loader: "url?limit=40000"} //当你图片大小小于这个限制的时候，会自动启用base64编码图片。
     ]

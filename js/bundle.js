@@ -52,6 +52,7 @@
 	// require('expose?$!jquery');
 	// var t = $('h1').text();
 	// console.log(t);
+	console.log('aa');
 
 	document.write(__webpack_require__(6));
 
