@@ -1,0 +1,26 @@
+{
+  "name": "Esh-gulp",
+  "version": "1.0.0",
+  "description": "Esh gulp develop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/puregardenia/Webpack.git"
+  },
+  "author": "puregardenia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puregardenia/Webpack/issues"
+  },
+  "homepage": "https://github.com/puregardenia/",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "expose-loader": "^0.7.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  }
+}
